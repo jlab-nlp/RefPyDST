@@ -1,0 +1,8 @@
+{
+  "train_fn": "mw21_5p_train_v1.json",
+  "dev_fn": "mw21_100p_dev.json",
+  "test_fn": "mw21_100p_test.json",
+  "num_epochs": 15,
+  "top_k": 10,
+  "top_range": 200
+}

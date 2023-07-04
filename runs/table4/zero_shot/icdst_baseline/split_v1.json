@@ -1,0 +1,31 @@
+{
+  "train_fn": "mw21_0p_train.json",
+  "test_fn": "mw24_20p_dev.json",
+  "prompt_format": "IC-DST",
+  "retriever_type": "no_retriever",
+  "retriever_dir": "none",
+  "num_examples": 1,
+  "format_example": {
+    "ID": "formatting_example_ic_dst.json",
+    "turn_id": 0,
+    "dialog": {
+      "sys": [
+        ""
+      ],
+      "usr": [
+        "i am looking for a guest house to stay in the west. i do not need internet ."
+      ]
+    },
+    "turn_slot_values": {
+      "hotel-type": "guest house",
+      "hotel-area": "west",
+      "hotel-internet": "no"
+    },
+    "last_slot_values": {},
+    "slot_values": {
+      "hotel-type": "guest house",
+      "hotel-area": "west",
+      "hotel-internet": "no"
+    }
+  }
+}

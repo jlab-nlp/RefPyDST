@@ -1,0 +1,52 @@
+{
+  "train_fn": "mw21_0p_train.json",
+  "test_fn": "mw24_coref_only_dials_dev.json",
+  "prompt_format": "python-prompt",
+  "retriever_type": "no_retriever",
+  "retriever_dir": "none",
+  "num_examples": 1,
+  "lm_decoding_config": {
+    "method": "mutual_info",
+    "top_p": 0.7,
+    "max_mi_candidates": 5,
+    "null_prompt_format": "python-prompt-NULL",
+    "min_token_null_probability": 5e-4,
+    "min_null_probability": 1e-5,
+    "stop_token": "\n",
+    "canonical_completions": true,
+    "null_prompt_weight": 0.4,
+    "best_of": 32
+  },
+  "format_example": {
+    "ID": "formatting_example_python.json",
+    "turn_id": 0,
+    "dialog": {
+      "sys": [
+        "i have booked that for you , is there anything else i can help with ?"
+      ],
+      "usr": [
+        "thank you , i will need a taxi from clare college to the restaurant ."
+      ]
+    },
+    "turn_slot_values": {
+      "taxi-departure": "clare college",
+      "taxi-destination": "restaurant alimentum"
+    },
+    "last_slot_values": {
+      "restaurant-name": "restaurant alimentum",
+      "restaurant-food": "modern european",
+      "restaurant-book time": "6:15",
+      "restaurant-book people": "2",
+      "restaurant-book day": "tuesday"
+    },
+    "slot_values": {
+      "restaurant-name": "restaurant alimentum",
+      "restaurant-food": "modern european",
+      "restaurant-book time": "6:15",
+      "restaurant-book people": "2",
+      "restaurant-book day": "tuesday",
+      "taxi-departure": "clare college",
+      "taxi-destination": "restaurant alimentum"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+ {
+  "train_fn": "mw21_5p_train_v1.json",
+  "retriever_dir": "runs/retriever/mw21_5p_train/ic_dst/split_v1/",
+  "test_fn": "mw24_coref_only_dials_dev.json",
+  "prompt_format": "IC-DST"
+ }

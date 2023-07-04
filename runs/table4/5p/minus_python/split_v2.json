@@ -1,0 +1,18 @@
+{
+  "train_fn": "mw21_5p_train_v2.json",
+  "retriever_dir": "runs/retriever/mw21_5p_train/ic_dst/split_v2/",
+  "test_fn": "mw24_20p_dev.json",
+  "prompt_format": "IC-DST",
+  "decoder_config": {"decoder_type": "max_emb_distance", "discount_factor": 0.2, "from_n_possible": 100},
+  "lm_decoding_config": {
+    "method": "mutual_info",
+    "top_p": 0.9,
+    "max_mi_candidates": 5,
+    "null_prompt_format": "IC-DST-NULL",
+    "min_token_null_probability": 5e-7,
+    "min_null_probability": 1e-7,
+    "stop_token": "\n",
+    "canonical_completions": true,
+    "null_prompt_weight": 0.4
+  }
+}

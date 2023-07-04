@@ -1,0 +1,7 @@
+{
+  "train_fn": "mw21_100p_train.json",
+  "test_fn": "mw21_100p_test.json",
+  "prompt_format": "python-prompt",
+  "artifact_id": "-runs-codex-mw21_100p_train-python-top_p_0_9_x_max_emb_04_canonical_beta_0_5_from_200-split_v1",
+  "artifact_alias": "v0"
+}

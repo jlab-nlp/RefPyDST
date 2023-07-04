@@ -1,0 +1,43 @@
+{
+  "train_fn": "mw21_0p_train.json",
+  "test_fn": "mw24_coref_only_dials_dev.json",
+  "prompt_format": "IC-DST",
+  "retriever_type": "no_retriever",
+  "retriever_dir": "none",
+  "num_examples": 1,
+  "lm_decoding_config": {
+    "method": "mutual_info",
+    "top_p": 0.7,
+    "max_mi_candidates": 5,
+    "null_prompt_format": "IC-DST-NULL",
+    "min_token_null_probability": 5e-4,
+    "min_null_probability": 1e-5,
+    "stop_token": "\n",
+    "canonical_completions": true,
+    "null_prompt_weight": 0.4,
+    "best_of": 32
+  },
+  "format_example": {
+    "ID": "formatting_example_ic_dst.json",
+    "turn_id": 0,
+    "dialog": {
+      "sys": [
+        ""
+      ],
+      "usr": [
+        "i am looking for a guest house to stay in the west. i do not need internet ."
+      ]
+    },
+    "turn_slot_values": {
+      "hotel-type": "guest house",
+      "hotel-area": "west",
+      "hotel-internet": "no"
+    },
+    "last_slot_values": {},
+    "slot_values": {
+      "hotel-type": "guest house",
+      "hotel-area": "west",
+      "hotel-internet": "no"
+    }
+  }
+}
