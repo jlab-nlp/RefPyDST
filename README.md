@@ -39,7 +39,7 @@ These installation steps should be sufficient for reproducing results, please op
 
 ## Downloading Dataset and configuring Data Directory
 
-We download and process data following the processing in [YushiHU/IC-DST](https://github.com/YushiHu/IC-DST.git):
+We download and process data following the processing in [Yushi-Hu/IC-DST](https://github.com/Yushi-Hu/IC-DST.git):
 
 ```bash
 cd data
