@@ -8,13 +8,17 @@ Findings of ACL 2023. Long Paper
 
 
 ```
-@misc{king2023diverse,
-      title={Diverse Retrieval-Augmented In-Context Learning for Dialogue State Tracking}, 
-      author={Brendan King and Jeffrey Flanigan},
-      year={2023},
-      eprint={2307.01453},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{king-flanigan-2023-diverse,
+    title = "Diverse Retrieval-Augmented In-Context Learning for Dialogue State Tracking",
+    author = "King, Brendan  and
+      Flanigan, Jeffrey",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.344",
+    pages = "5570--5585"
 }
 ```
 
