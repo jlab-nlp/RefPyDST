@@ -2,7 +2,7 @@
 
 This is the code release for the paper Diverse Retrieval-Augmented In-Context Learning for Dialogue State Tracking [[pdf]](https://arxiv.org/pdf/2307.01453.pdf)
 
-Brendan King and Jeffrey Flanigan.
+[Brendan King](https://kingb12.github.io/) and Jeffrey Flanigan.
 
 Findings of ACL 2023. Long Paper
 
