@@ -18,8 +18,8 @@ Findings of ACL 2023. Long Paper
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.findings-acl.344",
+    doi = "10.18653/v1/2023.findings-acl.344",
     pages = "5570--5585"
-}
 ```
 
 ## Installation
