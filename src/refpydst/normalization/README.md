@@ -55,4 +55,4 @@ with any similarly formatted system definition and data set, allowing for use in
 
 To verify that our approach to normalization is not the key factor distinguishing our performance from previous methods,
 we apply it to a faithful re-implementation of our [IC-DST Codex baseline](https://arxiv.org/abs/2203.08568) in our 
-ablation in [Table 4](TODO link and verify table number).
+ablation in [Table 4](https://aclanthology.org/2023.findings-acl.344.pdf).
